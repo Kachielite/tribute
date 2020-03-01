@@ -1,15 +1,16 @@
 body {
-    background-image: url("/home/kachi/Documents/web development/Kobe Site/images/backgroud.jpg");
+    background-image: url("../images/backgroud.jpg");
 }
 
 p {
-    font-family: 'Fira Sans Extra Condensed','serif';
+    font-family: 'Fira Sans Extra Condensed', 'serif';
     font-size: medium;
 }
 
+
 /* Content Body */
 
-#content-body{
+#content-body {
     text-align: center;
     background-color: white;
     /* background-image: url("/home/kachi/Documents/web development/Kobe Site/images/cont-dv.png"); */
@@ -21,21 +22,18 @@ p {
     padding-left: 0px;
     padding-right: 0px;
     position: relative;
-
 }
 
 
 /* Title-Div */
 
-#title{ 
-    background-image: url("/home/kachi/Documents/web development/Kobe Site/images/title-div1.jpeg");
+#title {
+    background-image: url("../images/title-div1.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 20%;
     width: 100%;
     border-bottom: 8px solid white;
-
-
 }
 
 .kobe-face {
@@ -49,17 +47,14 @@ p {
 }
 
 #kobe-bio {
-    font-family: 'Abril Fatface', serif; 
+    font-family: 'Abril Fatface', serif;
     font-weight: bolder;
     width: 27%;
     position: relative;
     bottom: 270px;
     right: -80px;
     z-index: 1;
-    
 }
-
-
 
 #bio {
     line-height: 1.5;
@@ -81,9 +76,10 @@ p {
     padding: 7% 15%;
 }
 
-/* Smartphones (less 780px and down) */
-@media only screen and (max-width: 780px) {
 
+/* Smartphones (less 780px and down) */
+
+@media only screen and (max-width: 780px) {
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
@@ -93,9 +89,8 @@ p {
         right: 5px;
         z-index: 1;
     }
-
     #kobe-bio {
-        font-family: 'Abril Fatface', serif; 
+        font-family: 'Abril Fatface', serif;
         font-weight: bolder;
         position: relative;
         bottom: 100px;
@@ -105,17 +100,14 @@ p {
         padding-left: 0px;
         width: 300px;
     }
-
-    #title{ 
-        background-image: url("/home/kachi/Documents/web development/Kobe Site/images/title-div1.jpeg");
+    #title {
+        background-image: url("../images/title-div1.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 12%;
         width: 100%;
         border-bottom: 8px solid white;
-    
     }
-
     #bio {
         line-height: 1.5;
         position: relative;
@@ -125,8 +117,10 @@ p {
     }
 }
 
+
 /* Small devices (phablets and tablets)  between 781px and 900px */
-@media (min-width : 781px) and (max-width : 900px) {
+
+@media (min-width: 781px) and (max-width: 900px) {
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
@@ -136,9 +130,8 @@ p {
         right: 230px;
         z-index: 1;
     }
-
     #kobe-bio {
-        font-family: 'Abril Fatface', serif; 
+        font-family: 'Abril Fatface', serif;
         font-weight: bolder;
         position: relative;
         bottom: 190px;
@@ -148,7 +141,6 @@ p {
         padding-left: 0px;
         width: 300px;
     }
-
     #bio {
         line-height: 1.5;
         position: relative;
@@ -157,8 +149,10 @@ p {
     }
 }
 
+
 /* Big devices (tablets and pc) 900px and 991px */
-@media (min-width : 900px) and (max-width : 991px) {
+
+@media (min-width: 900px) and (max-width: 991px) {
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
@@ -168,9 +162,8 @@ p {
         right: 220px;
         z-index: 1;
     }
-
     #kobe-bio {
-        font-family: 'Abril Fatface', serif; 
+        font-family: 'Abril Fatface', serif;
         font-weight: bolder;
         position: relative;
         bottom: 210px;
@@ -180,11 +173,12 @@ p {
         padding-left: 0px;
         width: 300px;
     }
-
 }
 
+
 /* Extra big devices (pc) 992px and up*/
-@media (min-width : 992px) and (max-width : 1200px) {
+
+@media (min-width: 992px) and (max-width: 1200px) {
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
@@ -194,9 +188,8 @@ p {
         right: 320px;
         z-index: 1;
     }
-
     #kobe-bio {
-        font-family: 'Abril Fatface', serif; 
+        font-family: 'Abril Fatface', serif;
         font-weight: bolder;
         position: relative;
         bottom: 240px;
@@ -206,5 +199,4 @@ p {
         padding-left: 0px;
         width: 500px;
     }
-
 }
