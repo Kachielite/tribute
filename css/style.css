@@ -1,5 +1,6 @@
 body {
     background-image: url("../images/backgroud.jpg");
+    height: fit-content;
 }
 
 h1 {
@@ -20,7 +21,7 @@ p {
     background-color: white;
     background-size: 100% 100%;
     border: 8px solid white;
-    height: 3700px;
+    height: fit-content;
     margin-top: 100px;
     margin-bottom: 100px;
     padding-left: 0px;
@@ -39,6 +40,13 @@ p {
     width: 100%;
     border-bottom: 8px solid white;
 }
+
+#title1 {
+    height: 428px;
+}
+
+
+/* Bio-Div */
 
 .kobe-face {
     border-radius: 100%;
@@ -70,7 +78,10 @@ p {
     margin-bottom: 0px;
 }
 
-#testimonies {
+
+/* Testimonies-Div */
+
+.testimonies {
     text-align: center;
     background-color: whitesmoke;
     color: black;
@@ -80,6 +91,7 @@ p {
     position: relative;
     z-index: 1;
     bottom: 200px;
+    height: auto;
 }
 
 .testimonial-text {
@@ -95,6 +107,15 @@ p {
 .carousel-control-prev,
 .carousel-indicators {
     filter: invert(100%);
+}
+
+
+/* Award-Div */
+
+.awards {
+    position: relative;
+    z-index: 1;
+    bottom: 120px;
 }
 
 #contact-me2 {
@@ -163,7 +184,7 @@ p {
         bottom: 80px;
         margin: 0px;
     }
-    #testimonies {
+    .testimonies {
         text-align: center;
         background-color: whitesmoke;
         color: black;
@@ -174,12 +195,17 @@ p {
         z-index: 1;
         bottom: 75px;
     }
+    .awards {
+        position: relative;
+        z-index: 1;
+        bottom: 30px;
+    }
     .copyright {
         margin-bottom: 0px;
         margin-top: 60px;
         position: relative;
         z-index: 1;
-        bottom: 300px;
+        bottom: 160px;
     }
 }
 
@@ -216,7 +242,7 @@ p {
         z-index: 1;
         bottom: 190px;
     }
-    #testimonies {
+    .testimonies {
         text-align: center;
         background-color: whitesmoke;
         color: black;
@@ -233,6 +259,9 @@ p {
 /* Big devices (tablets and pc) 900px and 991px */
 
 @media (min-width: 900px) and (max-width: 991px) {
+    #title1 {
+        height: 428px;
+    }
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
@@ -253,7 +282,7 @@ p {
         padding-left: 0px;
         width: 300px;
     }
-    #testimonies {
+    .testimonies {
         text-align: center;
         background-color: whitesmoke;
         color: black;
@@ -270,6 +299,9 @@ p {
 /* Extra big devices (pc) 992px and up*/
 
 @media (min-width: 992px) and (max-width: 1200px) {
+    #title1 {
+        height: 508px;
+    }
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
