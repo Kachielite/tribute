@@ -2,6 +2,11 @@ body {
     background-image: url("../images/backgroud.jpg");
 }
 
+h1 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: bolder;
+}
+
 p {
     font-family: 'Fira Sans Extra Condensed', 'serif';
     font-size: medium;
@@ -13,7 +18,6 @@ p {
 #content-body {
     text-align: center;
     background-color: white;
-    /* background-image: url("/home/kachi/Documents/web development/Kobe Site/images/cont-dv.png"); */
     background-size: 100% 100%;
     border: 8px solid white;
     height: 2000px;
@@ -68,12 +72,26 @@ p {
 
 #testimonies {
     text-align: center;
-    background-color: navy;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 0px;
+    border-top-width: 50px;
+    padding-top: 50px;
+}
+
+.testimonial-text {
+    font-family: 'Amatic SC', serif;
+    font-size: xx-large;
 }
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
 }
 
 
