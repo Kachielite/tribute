@@ -77,6 +77,9 @@ p {
     margin-top: 0px;
     border-top-width: 50px;
     padding-top: 50px;
+    position: relative;
+    z-index: 1;
+    bottom: 200px;
 }
 
 .testimonial-text {
@@ -133,6 +136,17 @@ p {
         bottom: 80px;
         margin: 0px;
     }
+    #testimonies {
+        text-align: center;
+        background-color: whitesmoke;
+        color: black;
+        margin-top: 0px;
+        border-top-width: 50px;
+        padding-top: 50px;
+        position: relative;
+        z-index: 1;
+        bottom: 75px;
+    }
 }
 
 
@@ -165,6 +179,17 @@ p {
         z-index: 1;
         bottom: 190px;
     }
+    #testimonies {
+        text-align: center;
+        background-color: whitesmoke;
+        color: black;
+        margin-top: 0px;
+        border-top-width: 50px;
+        padding-top: 50px;
+        position: relative;
+        z-index: 1;
+        bottom: 170px;
+    }
 }
 
 
@@ -190,6 +215,17 @@ p {
         padding-right: 0px;
         padding-left: 0px;
         width: 300px;
+    }
+    #testimonies {
+        text-align: center;
+        background-color: whitesmoke;
+        color: black;
+        margin-top: 0px;
+        border-top-width: 50px;
+        padding-top: 50px;
+        position: relative;
+        z-index: 1;
+        bottom: 200px;
     }
 }
 
