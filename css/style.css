@@ -20,7 +20,7 @@ p {
     background-color: white;
     background-size: 100% 100%;
     border: 8px solid white;
-    height: 2000px;
+    height: 3700px;
     margin-top: 100px;
     margin-bottom: 100px;
     padding-left: 0px;
@@ -31,11 +31,11 @@ p {
 
 /* Title-Div */
 
-#title {
+.title {
     background-image: url("../images/title-div1.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 20%;
+    height: 15%;
     width: 100%;
     border-bottom: 8px solid white;
 }
@@ -97,10 +97,37 @@ p {
     filter: invert(100%);
 }
 
+#contact-me2 {
+    position: relative;
+    margin: 0px;
+    padding: 30px;
+}
+
+.copyright {
+    margin-bottom: 0px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    bottom: 200px;
+}
+
+.foot-icon {
+    margin: 0px 10px 20px;
+    color: lightslategray;
+}
+
+#footer-sec {
+    padding: 0px 30px 20px 30px;
+    text-align: center;
+}
+
 
 /* Smartphones (less 780px and down) */
 
 @media only screen and (max-width: 780px) {
+    #title1 {
+        height: 358px;
+    }
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
@@ -147,12 +174,22 @@ p {
         z-index: 1;
         bottom: 75px;
     }
+    .copyright {
+        margin-bottom: 0px;
+        margin-top: 60px;
+        position: relative;
+        z-index: 1;
+        bottom: 300px;
+    }
 }
 
 
 /* Small devices (phablets and tablets)  between 781px and 900px */
 
 @media (min-width: 781px) and (max-width: 900px) {
+    #title1 {
+        height: 488px;
+    }
     .kobe-face {
         border-radius: 100%;
         border: 6px solid white;
